@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    background: url(img/bg-main.jpg) fixed center no-repeat;
+    background-size: cover; 
+    }
+
+.bg-colection-men {
+    background: url(img/bg-men.jpg) no-repeat center center;
+    background-size: cover;
+    height: 25em;
+    transition: transform .5s ease;
+}    
+
+.bg-colection-women {
+    background: url(img/bg-women.jpg) no-repeat center center;
+    background-size: cover;
+    transition: transform .5s ease;
+}
+
+.bg-colection-women:hover, .bg-colection-men:hover {
+    transform: scale(1.1);
+  }
+
+.nav-item:hover {
+    background-color: #DE5340;
+    color: black;
+    border-radius: 0.3rem;
+}
+
+.bi-facebook:hover {
+    color: #3b5998;
+}
+
+.bi-twitter:hover {
+    color: #00acee;
+}
+
+.bi-google:hover {
+    color: #db4a39;
+}
+
+.bi-instagram:hover {
+    color: #962fbf;
+}
+
+.bi-linkedin:hover {
+    color: #0e76a8;
+}
+
